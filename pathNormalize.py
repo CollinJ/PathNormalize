@@ -25,9 +25,9 @@ def normalize(path):
     return pathFromList(newList)        
 
 #turns a list of folders into a path by adding '/' to each except the last
-def pathFromList(pathList): 
+def pathFromList(pathList):
+    path = ""
     for d in pathList:
-        path = ""
         path += (d + '/')
     return path[:-1]
 
