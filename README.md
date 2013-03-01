@@ -2,6 +2,7 @@ PathNormailize
 ==============
 
 Normalizes a path, taking out '.' and '..'
+pathNormalizeRegex.py uses only regex to solve this problem while pathNormalize.py uses a list.
 
 Usage
 -----
